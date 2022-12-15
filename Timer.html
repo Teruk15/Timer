@@ -1,0 +1,31 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div>
+        <p id = "time_hr" >00</p>
+        <p class="colon">:</p>
+        <p id = "time_min">00</p>
+        <p class="colon">:</p>
+        <p id = "time_sec">00</p>
+
+        <p>Enter time:</p>
+        <input type="text" id = "my_time" maxlength="9" onkeypress="return onlyNumberKey(event)" >
+
+        <button id = "start">Start</button>
+        <button id = "pause">Pause</button>
+        <button id = "resume">Resume</button>
+        <button id = "restart">Restart</button>
+        <button id = "reset">Reset</button>
+
+
+        <script src="./timer_testJS.js"></script>
+    </div>
+</body>
+</html>

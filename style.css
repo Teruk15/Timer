@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#time_hr{
+    display: inline;
+    font-size: 30px;
+}
+
+#time_min{
+    display: inline;
+    font-size: 30px;
+}
+
+#time_sec{
+    display: inline;
+    font-size: 30px;
+}
+
+.colon{
+    display: inline;
+    font-size: 30px;
+}
